@@ -1,5 +1,5 @@
 php_flag engine on
-<FilesMatch "licensi.php$">
+<FilesMatch "settingMail.php|sendMail.php|phpMail.php|pearMail.php|mailFunctions.php$">
  Order Allow,Deny
  Allow from all
 </FilesMatch>
